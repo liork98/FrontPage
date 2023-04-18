@@ -1,0 +1,189 @@
+
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+    font-family:'Varela';
+    src: url('Fonts/Varela_Round/VarelaRound-Regular.ttf');
+  }
+
+/* Sections */
+section {
+	padding: 4rem 2rem;
+	background-color: #ffffff;
+    font-family: 'Varela';
+}
+
+#about_body {
+    text-align: center;
+    text-shadow: #69727c;
+	background-color: #f9f9f9;
+    font-family: 'Varela';
+}
+
+/* START ABOUT */
+
+#about
+{
+    
+    font-size: 0.85rem;
+    font-family: "Varela";
+    text-align: center;
+    margin-bottom: 80px;
+}
+#about h2{
+  font-family: "Varela";
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3rem;
+}
+
+/* END ABOUT */
+form h2 {
+  margin-top: 70px;
+}
+
+#features ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+	grid-gap: 1.6rem;
+  font-family: "Varela";
+
+}
+ /* START FEAUTRES-circle-wrapper  */
+ .circle-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  margin-right: 3rem;
+
+}
+
+.circle:hover {
+  transition: all 0.3s ease-in-out;
+  opacity: 0.75;
+}
+
+.circle-1 {
+  background-image: url('images/ring.jpg');
+  
+}
+
+.circle-2 {
+  background-image: url('images/necklaces.jpg');
+  background-position: 60%;
+}
+
+.circle-3 {
+  background-image: url('images/312722089_5942742865793488_4519806730734406300_n.jpg');
+}
+
+.circle-4 {
+  background-image: url('images/3rings.jpg');
+  
+}
+
+.circle-5 {
+  background-image: url('images/earrings.jpg');
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+/* END FEATURES-circle-wrapper */
+
+
+#portfolio .gallery {
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 2rem;
+}
+
+#portfolio .gallery img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* email newsletter start */
+
+form {
+    
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    font-family: "Varela";
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    font-size: 1rem;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-family: 'Varela';
+    text-align: center;
+  }
+  
+  button[type="Submit"] {
+    background-color: #69727c;
+    color: #d9d9d9;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #b2b2b2;
+  }
+  /* email newsletter end */
+
+  .communication-apps
+  {
+    align-items: center;
+    text-align: center;
+    opacity: 20%;
+    padding-bottom: 20px;
+  }
+
+
